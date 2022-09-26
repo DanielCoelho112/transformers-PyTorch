@@ -1,0 +1,13 @@
+title: Attention Is All You Need.
+
+    The multi-head Attention block is the core of transformer. Understanding this, the rest is easy.
+
+:: multi-head Attention ::
+
+    In the encoder, how can we compute the Q,K,V? --> Linear.
+
+    Both the encoder and decoder will be repeated a number of times. Nx
+
+    The major strength in transformer is that all operations are performed parelelely.
+
+    In the encoder the input is splited to perform the multi head attention.
